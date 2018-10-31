@@ -148,4 +148,4 @@ console.log("actors test complete");
 directors.forEach(file => {validatePerson(file, directorsFolder)});
 console.log("directors test complete");
 
-assert.equal(errorsFound, false, 'Invalid files found');
+assert.equal(errorsFound, false, 'The files that were located seem to be invalid');
